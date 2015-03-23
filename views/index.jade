@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+
+        script(src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+        script(src="http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js")
+        script(src='/js/gbk-test.js')
+
+    body
+
+      h1= title
+      p Welcome to #{title}
+      p How's it going Kenneth?
+
+      #cy-test
